@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  app :
+    build: ./cdp-warehouse-service/
+    volumes:
+      - .:/cdp-warehouse-service:z
