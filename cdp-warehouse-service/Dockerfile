@@ -33,4 +33,4 @@ EXPOSE 3001
 
 # run `npm start` to setup the server
 WORKDIR /cdp-warehouse-service/cdp-warehouse-service
-CMD ["python", "server.py"]
+#CMD ["python", "server.py"]
